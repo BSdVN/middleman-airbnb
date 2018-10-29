@@ -1,7 +1,15 @@
 #team {
   img {
       width: 250px;
-      border: 2px solid #C0463A;
+      border: 2px solid $purple;
       box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+    }
+
+    h3 {
+      color: $gray;
+    }
+
+    ul {
+      list-style: none;
     }
 }
